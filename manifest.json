@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Perplexity CSV Runner",
+  "version": "1.4.0",
+  "description": "Sequentially submits CSV questions to Perplexity in the same chat, waits for first response completion, and stores JSON results.",
+  "permissions": ["activeTab", "scripting", "tabs", "storage"],
+  "host_permissions": ["https://www.perplexity.ai/*"],
+  "action": {
+    "default_title": "Perplexity CSV Runner",
+    "default_popup": "popup.html"
+  }
+}
